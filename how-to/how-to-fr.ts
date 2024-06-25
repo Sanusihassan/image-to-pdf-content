@@ -1,10 +1,17 @@
 import { _howToSchemas } from "./how-to";
 
+
+/**
+ * now please help me to do the french version
+ * this object has a list of objects, but each should have a question mark to indicate the question
+ * this is in french, i want to add the question mark only for the name properties of each object but not the ones that are in the steps arrays
+ * for example: name: "Comment convertir des images JPG en PDF", should have a question mark to indicate that it's a question, note that the content is in french
+ */
 export const howToSchemas: _howToSchemas = {
     JPGToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des images JPG en PDF",
+        name: "Comment convertir des images JPG en PDF ?",
         description:
             "Guide étape par étape pour convertir plusieurs images JPG en un seul document PDF.",
         step: [
@@ -48,7 +55,7 @@ export const howToSchemas: _howToSchemas = {
     PNGToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images PNG en PDF",
+        "name": "Comment Convertir des Images PNG en PDF ?",
         "description": "Guide étape par étape pour convertir plusieurs images PNG en un seul document PDF.",
         "step": [
             {
@@ -91,7 +98,7 @@ export const howToSchemas: _howToSchemas = {
     GIFToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images GIF en PDF",
+        "name": "Comment Convertir des Images GIF en PDF ?",
         "description": "Guide étape par étape pour convertir plusieurs images GIF en un seul document PDF.",
         "step": [
             {
@@ -134,7 +141,7 @@ export const howToSchemas: _howToSchemas = {
     TIFFToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images TIFF en PDF",
+        "name": "Comment Convertir des Images TIFF en PDF ?",
         "description": "Guide étape par étape pour convertir plusieurs images TIFF en un seul document PDF.",
         "step": [
             {
@@ -177,7 +184,7 @@ export const howToSchemas: _howToSchemas = {
     BMPToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images BMP en PDF",
+        "name": "Comment Convertir des Images BMP en PDF ?",
         "description": "Guide étape par étape pour convertir des images BMP en un seul document PDF.",
         "step": [
             {
@@ -220,7 +227,7 @@ export const howToSchemas: _howToSchemas = {
     SVGToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images SVG en PDF",
+        "name": "Comment Convertir des Images SVG en PDF ?",
         "description": "Guide étape par étape pour convertir des images SVG en un seul document PDF.",
         "step": [
             {
@@ -263,7 +270,7 @@ export const howToSchemas: _howToSchemas = {
     WebPToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images WebP en PDF",
+        "name": "Comment Convertir des Images WebP en PDF ?",
         "description": "Guide étape par étape pour convertir des images WebP en un seul document PDF.",
         "step": [
             {
@@ -306,7 +313,7 @@ export const howToSchemas: _howToSchemas = {
     HEIFToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images HEIF en PDF",
+        "name": "Comment Convertir des Images HEIF en PDF ?",
         "description": "Guide étape par étape pour convertir des images HEIF en un seul document PDF.",
         "step": [
             {
@@ -349,7 +356,7 @@ export const howToSchemas: _howToSchemas = {
     HEICToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        "name": "Comment Convertir des Images HEIC en PDF",
+        "name": "Comment Convertir des Images HEIC en PDF ?",
         "description": "Guide étape par étape pour convertir des images HEIC en un seul document PDF.",
         "step": [
             {
@@ -392,7 +399,7 @@ export const howToSchemas: _howToSchemas = {
     ImageToPDFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des images en PDF",
+        name: "Comment convertir des images en PDF ?",
         description: "Guide étape par étape pour convertir plusieurs images (JPG, PNG, etc.) en un seul document PDF.",
         step: [
             {
@@ -430,7 +437,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToImageHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir un PDF en images",
+        name: "Comment convertir un PDF en images ?",
         description: "Guide étape par étape pour convertir un document PDF en images (JPG, PNG, etc.).",
         step: [
             {
@@ -473,7 +480,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToPNGHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir un PDF en images PNG",
+        name: "Comment convertir un PDF en images PNG ?",
         description: "Guide étape par étape pour convertir un document PDF en images PNG.",
         step: [
             {
@@ -511,7 +518,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToJPGHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images JPG",
+        name: "Comment convertir des documents PDF en images JPG ?",
         description: "Guide étape par étape pour convertir un document PDF en plusieurs images JPG.",
         step: [
             {
@@ -544,7 +551,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToGIFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images GIF",
+        name: "Comment convertir des documents PDF en images GIF ?",
         description: "Guide étape par étape pour convertir un document PDF en images GIF.",
         step: [
             {
@@ -577,7 +584,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToBMPHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images BMP",
+        name: "Comment convertir des documents PDF en images BMP ?",
         description: "Guide étape par étape pour convertir un document PDF en images BMP.",
         step: [
             {
@@ -610,7 +617,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToWEBPHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images WebP",
+        name: "Comment convertir des documents PDF en images WebP ?",
         description: "Guide étape par étape pour convertir un document PDF en images WebP.",
         step: [
             {
@@ -643,7 +650,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToSVGHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images SVG",
+        name: "Comment convertir des documents PDF en images SVG ?",
         description: "Guide étape par étape pour convertir un document PDF en images SVG.",
         step: [
             {
@@ -676,7 +683,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToTIFFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images TIFF",
+        name: "Comment convertir des documents PDF en images TIFF ?",
         description: "Guide étape par étape pour convertir un document PDF en images TIFF.",
         step: [
             {
@@ -709,7 +716,7 @@ export const howToSchemas: _howToSchemas = {
     PDFToHEIFHOWTO: {
         "@context": "http://schema.org",
         "@type": "HowTo",
-        name: "Comment convertir des documents PDF en images HEIF/HEIC",
+        name: "Comment convertir des documents PDF en images HEIF/HEIC ?",
         description: "Guide étape par étape pour convertir un document PDF en images HEIF ou HEIC.",
         step: [
             {
